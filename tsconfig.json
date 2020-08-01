@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "esnext",
+		"rootDir": ".",
+		"outDir": "./dist",
+		"sourceMap": true,
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true,
+		"noImplicitUseStrict": true,
+		"strictNullChecks": true,
+		"baseUrl": ".",
+		"paths": {
+			"utils/*": [
+				"./src/lib/utils/*"
+			],
+			"views/*": [
+				"./src/lib/views/*"
+			]
+		}
+	}
+}
